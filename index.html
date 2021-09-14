@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Relap</title>
+        <style>
+            * {margin:0; padding:0;box-sizing: border-box;}
+            
+            div#container {
+                width: 1442px;
+                height: 3800px;
+                background-color: rgba(67, 45, 167, 0.5);
+            }
+
+            nav {
+                background-color: rgba(96, 28, 184, 0.75);
+                height: 1.5%;
+            }
+
+            nav>*, nav>ul>li {
+                display: inline-block;
+                color: white;
+            }
+
+            nav>h1 {
+                margin-right: 300px;
+            }
+
+            #contact {
+                float:right;
+                padding-right:2%;
+            }
+
+            div#landing {
+                height: 18.42%;
+                background-image: linear-gradient(to bottom, rgba(120, 19, 230, 0.8), rgba(195, 118, 197, 0.5));
+            }
+
+            div>section {
+                margin-top:10px;
+                width: 30%;
+                height: 50%;
+                background-color: royalblue;
+            }
+
+            #landing>div>img {
+                display: inline-block;
+            }
+
+            #intro-para {
+                text-align: left;
+                display: inline-block;
+                width: 400px;
+                height: 300px;
+                vertical-align: middle;
+                background-color: teal;
+                margin-top:5%;
+                margin-left: 5%;
+                margin-right: 2%;
+                color: white;
+            }
+
+            #workspace-image {
+                display: inline-block;
+                width: 710px;
+                height: 400px;
+                vertical-align: middle;
+                background-color: teal;
+                margin-top: 5%;
+                margin-left: 14%;
+            }
+
+            #workspace-image>img {
+                height: 180%;
+            }
+        
+            div#second-pane {
+                height: 20%;
+                /* background-color: rgba(142, 45, 167, 0.02); */
+                background-color: rgba(142, 45, 167, 1);
+                /* text-align: center; */
+            }
+
+            div#heading {
+                margin-top: 3%;
+                margin-bottom: 3%;
+                margin-left: 5%;
+                margin-right: 20%;
+                display: inline-block;
+                width: 400px;
+                height: 200px;
+                vertical-align: middle;
+                background-color: slateblue;
+            }
+
+            div.desc-para {
+                display: inline-block;
+                width: 35%;
+                height: 200px;
+                vertical-align: middle;
+                background: slateblue;
+            }
+
+            div#gallery {
+                text-align: center;
+                margin-left: 2%;
+            }
+
+            ul#gallery-list {
+                margin-left: 5%;
+                margin-bottom: 2%;
+            }
+
+            #gallery-list>li {
+                display:inline-block;
+                padding-right: 3%;
+            }
+
+            .gallery-img {
+                width: 28%;
+                height: 300px;
+                background-color: white;
+                display: inline-block;
+                margin-right: 3%;
+            }
+
+            div#customers {
+                height: 19%;
+                background-color: rgb(37, 18, 161);
+                color: white;
+            }
+
+            #cust-img {
+                height: 60%;
+                width: 35%;
+                display: inline-block;
+                background-color: springgreen;
+                vertical-align: middle;
+                margin-top: 5%;
+                margin-right: 13%;
+                margin-left: 10%;
+            }
+
+            #cust-para {
+                height: 50%;
+                width: 33%;
+                display: inline-block;
+                background-color: springgreen;
+                vertical-align: middle;
+                margin-top: 10%;
+                padding-top: 7%;
+            }
+
+            #cust-para>h1 {
+                margin: 3% 0;
+            }
+
+            div#solutions {
+                height: 20%;
+                background-color: #ccd;
+            }
+            
+            #sol-para {
+                text-align: center;
+                padding-top: 4%;
+            }
+
+            #sol-para>h1 {
+                margin-bottom: 2%;
+            }
+
+            #sol-para>p {
+                width: 30%;
+                margin: auto;
+            }
+
+            #sol-imgs {
+                margin-top: 5%;
+                margin-left: 25%;
+                margin-right: 10%;
+            }
+
+            .infograph {
+                margin-left: 1%;
+                margin-top: 1%;
+                margin-right: 0%;
+                /* margin: 5%; */
+                display: inline-block;
+                width: 25%;
+                height: 200px;
+                background-color: white;
+                text-align: center;
+                padding-top: 5%;
+            }
+
+            div#testimonial {
+                height: 20%;
+                background-color: whitesmoke;
+                text-align: center;
+            }
+
+            #testi-para {
+                padding-top: 5%;
+            }
+
+            #testi-para>p {
+                width: 35%;
+                margin: auto;
+            }
+
+            #testi-card {
+                width: 25%;
+                height: 250px;
+                display: inline-block;
+                background-color: white;
+                margin-top: 2%;
+                margin-right: 2%;
+                padding: 20px;
+                text-align: left;
+                box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+            }
+
+            #testi-card>* {
+                padding-bottom: 15px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <nav>
+                <h1>Relap</h1>
+                <ul>
+                    <li>Home</li>
+                    <li>Features</li>
+                    <li>Work</li>
+                    <li>About</li>
+                    <li>People</li>
+                    <li>News</li>
+                </ul>
+                <div id="contact" class="btn" >
+                    <p>Contact Us</p>
+                </div>
+            </nav>
+            <div id="landing">
+                <div class="content-holder">
+                    <div id="intro-para">
+                        <h1>Omnis Voluptas</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque reprehenderit reiciendis molestias voluptas doloremque enim asperiores iusto modi alias. Cumque quidem laboriosam ipsam magni.</p>
+                        <div id="explore" class="btn">
+                            <p>Explore</p>
+                        </div>
+                    </div>
+                    <div id="workspace-image">
+                        <img src="images/banner_bg.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="second-pane">
+                <div id="heading">
+                    <p>Lorem, ipsum.</p>
+                    <h1>Ullam corporis suscipit</h1>
+                </div>
+                <div class="desc-para">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, qui veniam? Nesciunt cum voluptatum saepe, non odit iure obcaecati doloremque dolorum vitae rerum ratione dicta id, amet officiis pariatur fugiat? Et officia obcaecati fugit esse? Nulla, asperiores deleniti error rem excepturi cum repudiandae laborum commodi.</p>
+                </div>
+                <ul id="gallery-list">
+                    <li>Quis Autem</li>
+                    <li>Reprehenderit</li>
+                    <li>Voluptas</li>
+                    <li>Molestias</li>
+                    <li>Consequatur</li>
+                </ul>
+                <div id="gallery">
+                    <div class="gallery-img">
+                        <img src="images/gallery_1.png" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="images/gallery_2.png" alt="">
+                    </div>
+                    <div class="gallery-img">
+                        <img src="images/gallery_3.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="customers">
+                <div id="cust-img">
+                    <img src="images/about_img.png" alt="">
+                </div>
+                <div id="cust-para">
+                    <p>Repellendus</p>
+                    <h1>Temporibus quibusdam</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo natus totam animi facilis temporibus ea autem cupiditate, consequuntur consectetur repellat? Maxime excepturi praesentium, error velit maiores unde est impedit recusandae?</p>
+                </div>
+            </div>
+            <div id="solutions">
+                <div id="sol-para">
+                    <h1>Fugiat quo</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat suscipit beatae, ducimus dolorem quam odit sint.</p>
+                </div>
+                <div id="sol-imgs">
+                    <div class="infograph">
+                        <img src="images/icon_1.png" alt="">
+                        <h3>Consequuntur</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="infograph">
+                        <img src="images/icon_2.png" alt="">
+                        <h3>Consequuntur</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="infograph">
+                        <img src="images/icon_3.png" alt="">
+                        <h3>Consequuntur</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="infograph">
+                        <img src="images/icon_4.png" alt="">
+                        <h3>Consequuntur</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="infograph">
+                        <img src="images/icon_5.png" alt="">
+                        <h3>Consequuntur</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="infograph">
+                        <img src="images/icon_6.png" alt="">
+                        <h3>Consequuntur</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="testimonial">
+                <div id="testi-para">
+                    <h4>Testimonial</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, distinctio omnis aperiam laborum fugit totam. Ab, eos. Quod illo a ipsa.</p>
+                </div>
+                <div id="testi-list">
+                    <div id="testi-card">
+                        <img src="images/profile_1.png" alt="">
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid dolore magnam cupiditate officia."</p>
+                        <h4>Malin Quist</h4>
+                    </div>
+                    <div id="testi-card">
+                        <img src="images/profile_2.png" alt="">
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid dolore magnam cupiditate officia."</p>
+                        <h4>Malin Quist</h4>
+                    </div>
+                    <div id="testi-card">
+                        <img src="images/profile_3.png" alt="">
+                        <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aliquid dolore magnam cupiditate officia."</p>
+                        <h4>Malin Quist</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
